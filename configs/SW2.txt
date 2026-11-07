@@ -1,0 +1,21 @@
+! SW2 - access switch for Sales and Guest (lab 1)
+hostname SW2
+no ip domain-lookup
+vlan 10
+ name SALES
+vlan 20
+ name IT
+vlan 30
+ name GUEST
+!
+interface fa0/1
+ description Trunk to SW1
+ switchport mode trunk
+interface fa0/2
+ description PC-Sales2
+ switchport mode access
+ switchport access vlan 10
+interface fa0/3
+ description PC-Guest
+ switchport mode access
+ switchport access vlan 30

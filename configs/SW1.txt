@@ -1,0 +1,35 @@
+! SW1 - access switch for Sales, IT and the office server (labs 1 and 5)
+hostname SW1
+no ip domain-lookup
+vlan 10
+ name SALES
+vlan 20
+ name IT
+vlan 30
+ name GUEST
+!
+interface fa0/1
+ description Uplink to R1
+ switchport mode trunk
+interface fa0/2
+ description Trunk to SW2
+ switchport mode trunk
+interface fa0/3
+ description PC-Sales1
+ switchport mode access
+ switchport access vlan 10
+interface fa0/4
+ description PC-IT1
+ switchport mode access
+ switchport access vlan 20
+interface fa0/5
+ description Office server
+ switchport mode access
+ switchport access vlan 20
+!
+! Lab 5: port security on the three desk ports
+interface range fa0/3 - 5
+ switchport port-security
+ switchport port-security maximum 1
+ switchport port-security mac-address sticky
+ switchport port-security violation shutdown
