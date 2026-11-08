@@ -4,7 +4,7 @@ Five labs that build one small office network step by step: **VLANs → inter-VL
 
 Built in Cisco Packet Tracer 9.0.
 
-Part of my networking labs: [ping and traceroute](https://github.com/yaseenselemane/ping-and-traceroute) · [nmap](https://github.com/yaseenselemane/nmap-field-notes) · [WiFi survey](https://github.com/yaseenselemane/wifi-survey) · [Wireshark](https://github.com/yaseenselemane/wireshark-packet-lab) · **Packet Tracer** · [subnet calculator](https://github.com/yaseenselemane/subnet-calculator) · [vantage](https://github.com/yaseenselemane/vantage) · [Tier One (game)](https://github.com/yaseenselemane/tier-one-network-ops)
+Part of my networking labs: [ping and traceroute](https://github.com/yaseenselemane/ping-and-traceroute) · [nmap](https://github.com/yaseenselemane/nmap-field-notes) · [WiFi survey](https://github.com/yaseenselemane/wifi-survey) · [Wireshark](https://github.com/yaseenselemane/wireshark-packet-lab) · **Packet Tracer** · [CCTV network](https://github.com/yaseenselemane/cctv-network-lab) · [subnet calculator](https://github.com/yaseenselemane/subnet-calculator) · [vantage](https://github.com/yaseenselemane/vantage) · [Tier One (game)](https://github.com/yaseenselemane/tier-one-network-ops)
 
 ![topology](topology.jpg)
 
